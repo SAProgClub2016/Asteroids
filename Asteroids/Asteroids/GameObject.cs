@@ -8,5 +8,6 @@ namespace Asteroids
 {
     class GameObject
     {
+        int x, y, dx, dy, xacceleration, yacceleration;
     }
 }

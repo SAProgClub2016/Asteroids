@@ -17,9 +17,15 @@ namespace Asteroids
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
+            Player player = new Player(GameScreen.Size.Width / 2, GameScreen.Size.Height / 2);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GameScreen_Paint(object sender, PaintEventArgs e)
         {
 
         }

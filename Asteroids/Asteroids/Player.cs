@@ -10,9 +10,10 @@ namespace Asteroids
     {
         int score, bulletCount;
         Boolean alive = true;
-        public Player()
+        public Player(int x, int y)
         {
-            
+            setX(x);
+            setY(y);
         }
 
     }

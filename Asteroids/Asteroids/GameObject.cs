@@ -9,13 +9,29 @@ namespace Asteroids
     class GameObject
     {
         private int x, y, dx, dy, xAccel, yAccel;
-        public void setXAccel()
+        public void setX(int x)
         {
-
+            this.x = x;
         }
-        public void setYAccel()
+        public void setY(int y)
         {
-
+            this.y = y;
+        }
+        public int getX()
+        {
+            return x;
+        }
+        public int getY()
+        {
+            return y;
+        }
+        public void setXAccel(int xAccel)
+        {
+           this.xAccel = xAccel;
+        }
+        public void setYAccel(int yAccel)
+        {
+            this.yAccel = yAccel;
         }
         public int getXAccel()
         {
@@ -23,7 +39,7 @@ namespace Asteroids
         }
         public int getYAccel()
         {
-            return yAccel
+            return yAccel;
         }
     }
 }

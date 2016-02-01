@@ -10,6 +10,9 @@ namespace Asteroids
     {
         int score, bulletCount;
         Boolean alive = true;
+        public Player()
+        {
+        }
 
     }
 }

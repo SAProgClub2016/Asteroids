@@ -1,3 +1,4 @@
 C:\Users\AJiang\Documents\Visual Studio 2015\Projects\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config
 C:\Users\AJiang\Documents\Visual Studio 2015\Projects\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config
 C:\Users\abrown\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config
+C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config

@@ -8,6 +8,22 @@ namespace Asteroids
 {
     class GameObject
     {
-        int x, y, dx, dy, xacceleration, yacceleration;
+        private int x, y, dx, dy, xAccel, yAccel;
+        public void setXAccel()
+        {
+
+        }
+        public void setYAccel()
+        {
+
+        }
+        public int getXAccel()
+        {
+            return xAccel;
+        }
+        public int getYAccel()
+        {
+            return yAccel
+        }
     }
 }

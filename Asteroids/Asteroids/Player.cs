@@ -8,8 +8,7 @@ namespace Asteroids
 {
     class Player : GameObject
     {
-        int score;
-        int position;
+        int score, bulletCount;
         Boolean alive = true;
 
     }

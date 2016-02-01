@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Asteroids
 {
-    class Asteroid : GameObject
+    class Bullet : GameObject
     {
-        int radius;
+
     }
 }

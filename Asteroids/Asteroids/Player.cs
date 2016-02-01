@@ -12,6 +12,7 @@ namespace Asteroids
         Boolean alive = true;
         public Player()
         {
+            
         }
 
     }

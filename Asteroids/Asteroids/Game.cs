@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Asteroids
 {
-    public partial class Form1 : Form
+    public partial class Game : Form
     {
-        public Form1()
+        public Game()
         {
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.None;

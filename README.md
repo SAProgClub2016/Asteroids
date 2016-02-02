@@ -1,2 +1,2 @@
-# ProgrammingClub
-Asteroids
+# Asteroids
+Programming Club Project

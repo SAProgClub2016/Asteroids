@@ -3,10 +3,10 @@ C:\Users\AJiang\Documents\Visual Studio 2015\Projects\ProgrammingClub\Asteroids\
 C:\Users\abrown\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.csprojResolveAssemblyReference.cache
-C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.Form1.resources
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.Properties.Resources.resources
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.csproj.GenerateResource.Cache
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.exe
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\Asteroids.pdb
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.exe
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.pdb
+C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.Game.resources

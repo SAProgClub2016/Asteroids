@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asteroids
+namespace Asteroids.GameLibrary.EntityLibrary
 {
-    class Player : GameObject
+    class Player : Entity
     {
         int score, bulletCount;
         Boolean alive = true;

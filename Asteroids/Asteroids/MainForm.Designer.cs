@@ -1,6 +1,6 @@
 ﻿namespace Asteroids
 {
-    partial class Game
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1002, 519);
-            this.Name = "Game";
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyUp);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
+            this.Name = "MainForm";
             this.Text = "Asteroids";
             this.ResumeLayout(false);
 

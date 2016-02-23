@@ -1,0 +1,9 @@
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\bin\Release\Asteroids.exe.config
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\bin\Release\Asteroids.exe
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\bin\Release\Asteroids.pdb
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Release\Asteroids.csprojResolveAssemblyReference.cache
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Release\Asteroids.MainForm.resources
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Release\Asteroids.Properties.Resources.resources
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Release\Asteroids.csproj.GenerateResource.Cache
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Release\Asteroids.exe
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Release\Asteroids.pdb

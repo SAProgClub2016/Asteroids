@@ -1,0 +1,4 @@
+﻿TO-DO:
+Create player object and create controls. Also Graphics Engine.
+BUGS:
+None yet!

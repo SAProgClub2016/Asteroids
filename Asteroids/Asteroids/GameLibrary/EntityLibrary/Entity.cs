@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asteroids
+namespace Asteroids.GameLibrary.EntityLibrary
 {
-    class GameObject
+    class Entity
     {
         private int x, y, dx, dy, xAccel, yAccel;
         public void setX(int x)

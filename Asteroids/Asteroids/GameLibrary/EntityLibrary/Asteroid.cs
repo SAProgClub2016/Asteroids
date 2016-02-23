@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asteroids
+namespace Asteroids.GameLibrary.EntityLibrary
 {
-    class Bullet : GameObject
+    class Asteroid : Entity
     {
-
+        int radius;
     }
 }

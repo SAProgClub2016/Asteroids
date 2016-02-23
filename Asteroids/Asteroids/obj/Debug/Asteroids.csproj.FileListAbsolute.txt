@@ -10,3 +10,6 @@ C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\bin\Debug\A
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.exe
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.pdb
 C:\Users\AJiang\Documents\GitHub\ProgrammingClub\Asteroids\Asteroids\obj\Debug\Asteroids.Game.resources
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\bin\Debug\Asteroids.exe.config
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Debug\Asteroids.exe
+C:\Users\andrew\Documents\GitHub\Asteroids\Asteroids\Asteroids\obj\Debug\Asteroids.pdb

@@ -13,9 +13,8 @@ namespace Asteroids.GameLibrary.EntityLibrary
         Boolean alive = true;
         public Player(int x, int y)
         {
-            setX(x);
-            setY(y);
-            
+            this.x = x;
+            this.y = y;
         }
 
     }

@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameLibrary\EntityLibrary\Asteroid.cs" />
-    <Compile Include="GameLibrary\EntityLibrary\Bullet.cs" />
+    <Compile Include="GameLibrary\EntityLibrary\BulletLibrary\Bullet.cs" />
     <Compile Include="GameLibrary\EntityLibrary\Entity.cs" />
     <Compile Include="GameLibrary\Game.cs" />
     <Compile Include="MainForm.cs">
@@ -58,6 +58,7 @@
     </Compile>
     <Compile Include="GameLibrary\KeyManager.cs" />
     <Compile Include="GameLibrary\EntityLibrary\Player.cs" />
+    <Compile Include="MathLibrary\Vector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
@@ -90,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GraphicsEngine\" />
-    <Folder Include="MathLibrary\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

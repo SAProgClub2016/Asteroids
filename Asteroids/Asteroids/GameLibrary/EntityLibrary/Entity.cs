@@ -8,38 +8,25 @@ namespace Asteroids.GameLibrary.EntityLibrary
 {
     class Entity
     {
-        private int x, y, dx, dy, xAccel, yAccel;
-        public void setX(int x)
+        public int x
         {
-            this.x = x;
+            get;
+            set;
         }
-        public void setY(int y)
+        public int y
         {
-            this.y = y;
+            get;
+            set;
         }
-        public int getX()
+        public int xAccel
         {
-            return x;
+            get;
+            set;
         }
-        public int getY()
+        public int yAccel
         {
-            return y;
-        }
-        public void setXAccel(int xAccel)
-        {
-           this.xAccel = xAccel;
-        }
-        public void setYAccel(int yAccel)
-        {
-            this.yAccel = yAccel;
-        }
-        public int getXAccel()
-        {
-            return xAccel;
-        }
-        public int getYAccel()
-        {
-            return yAccel;
+            get;
+            set;
         }
     }
 }

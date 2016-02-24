@@ -9,5 +9,9 @@ namespace Asteroids.GameLibrary.EntityLibrary
     class Asteroid : Entity
     {
         int radius;
+        public Asteroid()
+        {
+
+        }
     }
 }

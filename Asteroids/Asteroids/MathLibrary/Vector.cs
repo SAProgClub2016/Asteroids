@@ -1,4 +1,7 @@
-﻿using System;
+﻿#define USING_EXPRESSIONS
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -81,21 +84,25 @@ namespace Asteroids.MathLibrary
             if (v == null)
                 throw new ArgumentNullException();
         }
-        /*
+        
         public T Dot(Vector<T> v2)
         {
+            ///<summary>
+            ///Dot product.
+            /// </summary>
             ValidateDimensions(this, v2, "Dot", "this", "v2");
             T sum = default(T);
             for(int i = 0; i < this.Dimension; i++)
             {
 #if USING_EXPRESSIONS
-                
+                sum = Operations<T>.Add(sum, Operations<T>.Mul(this[i], v2[i]));                
 #else
-
+                sum += (dynamic) this[i] * v2[i];
 #endif
             }
+            return sum;
         }
-        *///TO BE IMPLEMENTED
+
         
         private static void ValidateDimensions<Q,S>(Vector<Q> vec1, Vector<S> vec2, string usedBy, string pName1, string pName2)
         {

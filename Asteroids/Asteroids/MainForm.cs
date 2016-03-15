@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Asteroids.GameLibrary;
+using Asteroids.Time;
 
 namespace Asteroids
 {
@@ -24,7 +25,14 @@ namespace Asteroids
             WindowState = FormWindowState.Maximized;
             
         }
-
+        Asteroids.Time.Timer timer, frameTimer, eventTimer;
+        public void GameLoop()
+        {
+            timer = new Asteroids.Time.Timer();
+            frameTimer = new Asteroids.Time.Timer();
+            eventTimer = new Asteroids.Time.Timer();
+            game.ResetTime();
+        }
 
         private void MainForm_Load(object sender, EventArgs e)
         {

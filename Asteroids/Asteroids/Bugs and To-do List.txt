@@ -1,4 +1,5 @@
 ﻿TO-DO:
-Create player object and create controls. Also Graphics Engine.
+Create player object and create controls. Also Graphics Engine. Finish framework.
+Create frame controlling and rewinding capabilities.
 BUGS:
 None yet!

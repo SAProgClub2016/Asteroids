@@ -13,15 +13,15 @@ namespace Asteroids.GameLibrary
         private Func<double, double> timeFunc;
         private IntegrableFunction<double, double> timeRateFunc;
         double curTimeRate;
-        public Game()
-        {
-            
-        }
         public void ResetTime()
         {
             gameTimer.Reset();
             timeRateFunc = new PolyFunc<double, double>(curTimeRate);
             timeFunc = timeRateFunc.FI;
+        }
+        public Game()
+        {
+            gameTimer = new Time.Timer();
         }
     }
 }

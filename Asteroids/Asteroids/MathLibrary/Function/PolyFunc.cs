@@ -78,6 +78,7 @@ namespace Asteroids.MathLibrary.Function
                 coeffs = new Vector<TC>(ans);
             }
         }
+        //Evaluate vector.
         public TC Evaluate(TP t)
         {
             TC sum = default(TC);

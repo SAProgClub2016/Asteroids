@@ -10,6 +10,7 @@ namespace Asteroids.MathLibrary.Function
     {
         PolyFunc<TC, TP> integral;
         Vector<TC> coeffs;
+        //Retrieves degree to take integral or derivative of something.
         public int Degree
         {
             get
@@ -31,6 +32,7 @@ namespace Asteroids.MathLibrary.Function
                 return this.Integral.F;
             }
         }
+        //Takes the integral.
         public PolyFunc<TC, TP> Integral
         {
             get

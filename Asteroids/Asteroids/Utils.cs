@@ -74,6 +74,7 @@ namespace Asteroids
             }
         }
     }
+    //Create operations to do vector-related calculations.
     public static class VectorScalar<V, S>
     {
         public static readonly Func<S, V, V> ScalarLeft;

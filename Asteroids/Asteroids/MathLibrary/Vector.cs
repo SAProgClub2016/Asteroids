@@ -102,8 +102,26 @@ namespace Asteroids.MathLibrary
             }
             return sum;
         }
-
-        
+        public Vector<T> Multiply(T d, Vector<T> res = default(Vector<T>))
+        {
+            MakeOrValidate(ref res, this.Dimension);
+            for(int i = 0; i < this.Dimension; i++)
+            {
+                //IMPLEMENT
+            }
+            return res;
+        }
+        private static void MakeOrValidate<S>(ref Vector<S> v1, int dimension)
+        {
+            if(v1.vec == null)
+            {
+                v1.vec = new S[dimension];
+            }
+            else
+            {
+                ValidateDimensions(v1, dimension, "MakeOrValidate(Vector<T> v1, int dimension)", "v1");
+            }
+        }
         private static void ValidateDimensions<Q,S>(Vector<Q> vec1, Vector<S> vec2, string usedBy, string pName1, string pName2)
         {
             ///<summary>
@@ -112,6 +130,13 @@ namespace Asteroids.MathLibrary
             if(vec1.Dimension != vec2.Dimension)
             {
                 throw new InvalidOperationException(string.Format("Error - {0}.\nDimension mismatch:\n{1}({2})\n{3}({4})", usedBy, pName1, vec1.Dimension, pName2, vec2.Dimension));
+            }
+        }
+        private static void ValidateDimensions<S>(Vector<S> v1, int dim, string method, string pName1)
+        {
+            if(v1.Dimension != dim)
+            {
+                throw new InvalidOperationException(string.Format("Error - {0} - Dimension mismatch: expected({1}) given {2}({3})", method, dim, pName1, v1.Dimension));
             }
         }
         public int Dimension

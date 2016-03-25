@@ -44,6 +44,14 @@ namespace Asteroids
                 }
             }
         }
+        private void RenderScene()
+        {
+
+        }
+        private void GameLogic()
+        {
+
+        }
         public void ASynchGameLoop()
         {
             int count = 0, FRAMES = 30;
@@ -60,6 +68,7 @@ namespace Asteroids
                 }
             }
         }
+
 
         private void MainForm_Load(object sender, EventArgs e)
         {
